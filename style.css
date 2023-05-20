@@ -50,6 +50,16 @@ body,html{
     background-color: aqua;
 }
 
+.imagens {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+}
+
+.imagens img {
+    object-fit: cover;
+}
+
 ul{
     float: right;
     padding: 0;
