@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    min-height: 100vh;
+}
+
+.container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+.chamada{
+    height:70px;
+    background-color: aqua;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.151);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.slide{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*text-shadow: 10px 10px 10px;*/
+    font-size: 0px;
+    margin: 0;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    background-color: aqua;
+}
+
+ul{
+    float: right;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    top: 30px; 
+}
+
+li{
+    padding: 5px;
+}
+
+li:hover{
+    background-image:linear-gradient(white,aqua)
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.mission{
+    margin: 0;
+    padding: 0;
+    color: black;
+    width: 100%;
+    height: 100%;
+
+}
+
+.mission h1{
+    height:70px;
+    font-size: 50px;
+    margin:auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    text-shadow: 1px 5px 6px white;
+    /*border-radius: 0px 0px 30px 30px;*/
+    border-radius: 30px 30px 00px 00px rgba(0, 255, 255, 0.377);
+    box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.151);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.mission h2{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.151);
+}
+
+
+.contato{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.contato1{
+    height:70px;
+    font-size: 50px;
+    margin:auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    text-shadow: 1px 5px 6px white;
+    /*border-radius: 0px 0px 30px 30px;*/
+    border-radius: 30px 30px 00px 00px rgba(0, 255, 255, 0.377);
+    box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.151);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contato2{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 255, 255, 0.151);
+    text-align: center;
+}
+
+button{
+    margin: auto;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.151);    
+    text-shadow: 1px 5px 6px rgba(0, 0, 0, 0.418);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.localização{
+    width: 100%;
+    height: 100%;
+}
+
+.loca{
+    height:70px;
+    font-size: 30px;
+    margin:auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    text-shadow: 1px 5px 6px white;
+    /*border-radius: 0px 0px 30px 30px;*/
+    border-radius: 30px 30px 00px 00px rgba(0, 255, 255, 0.377);
+    box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.151);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.address{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    text-shadow: 1px 5px 6px white;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+}
+
+.redes img{
+    width: 40px;
+}
+
+.redes li {
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+    padding: 30px;;
+}
+
+.redes li a{
+    color: rgb(3, 3, 3);
+}
+
+.redes{
+    background-color: rgba(0, 255, 255, 0.151);
+}
+.copy{
+    color: rgb(12, 12, 12);
+    text-align: center;
+    opacity: 0.3;
+    padding: 10px;
+}
+
+.fim{
+    height:20px;
+    background-color: aqua;
+    border-radius: 0px 0px 30px 30px; 
+    box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.151);
+}
+
+@media screen and (max-width: 400px) {
+
+    html{
+        font-size: 10px;
+        text-align: center;
+    }
+    ul{   
+        margin-bottom: 5px;
+        display: block;
+        background-color: gray;
+        padding: 10px;
+        position: relative;
+        top: 0;
+        text-align: center;
+
+    }
+    .top{
+        text-align: center;
+        width: 100%;
+    }
+
+    .chamada{
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.151);
+    
+    }
+
+    h2,button{
+        font-size: 20px;
+    }
+
+    .mission h1{
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.151);
+        
+        
+    }
+    
+    .contato{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .contato1{
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.151);
+        
+    }
+    
+    .contato2{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        color: rgb(0, 0, 0);
+        background-color: rgba(0, 255, 255, 0.151);
+        text-align: center;
+    }
+    
+    button{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border: none;
+        border-radius: 30px 30px 30px 30px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.151);    
+        
+    
+    }
+    
+    .localização{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .loca{
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.151);
+    }
+    
+    .address{
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        margin: auto;
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 255, 255);
+        text-align: center;
+        text-shadow: 1px 5px 6px white;
+    }
+    
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .redes img{
+        width: 20px;
+    }
+    
+    .redes li {
+        font-size: 20px;
+        padding: 30px;;
+    }
+    
+    .redes li a{
+        color: rgb(3, 3, 3);
+    }
+    
+    .redes{
+        background-color: rgba(0, 255, 255, 0.151);
+    }
+    .copy{
+        color: rgb(12, 12, 12);
+        text-align: center;
+        opacity: 0.3;
+        padding: 10px;
+    }
+    
+    .fim{
+        height:20px;
+        background-color: aqua;
+        border-radius: 0px 0px 30px 30px; 
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.151);
+    }
+    
+    
+
+    
+}
